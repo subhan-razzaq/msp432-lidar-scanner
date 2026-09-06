@@ -1,0 +1,649 @@
+Component: Arm Compiler for Embedded 6.23 Tool: armlink [5f102400]
+
+==============================================================================
+
+Section Cross References
+
+    pll.o(.ARM.exidx.text.PLL_Init) refers to pll.o(.text.PLL_Init) for [Anonymous Symbol]
+    systick.o(.ARM.exidx.text.SysTick_Init) refers to systick.o(.text.SysTick_Init) for [Anonymous Symbol]
+    systick.o(.ARM.exidx.text.SysTick_Wait) refers to systick.o(.text.SysTick_Wait) for [Anonymous Symbol]
+    systick.o(.text.SysTick_Wait10ms) refers to systick.o(.text.SysTick_Wait) for SysTick_Wait
+    systick.o(.ARM.exidx.text.SysTick_Wait10ms) refers to systick.o(.text.SysTick_Wait10ms) for [Anonymous Symbol]
+    vl53l1_platform_2dx4.o(.ARM.exidx.text.beginTxI2C) refers to vl53l1_platform_2dx4.o(.text.beginTxI2C) for [Anonymous Symbol]
+    vl53l1_platform_2dx4.o(.ARM.exidx.text.beginRxI2C) refers to vl53l1_platform_2dx4.o(.text.beginRxI2C) for [Anonymous Symbol]
+    vl53l1_platform_2dx4.o(.text.writeRegisterIndex) refers to onboardleds.o(.text.FlashI2CTx) for FlashI2CTx
+    vl53l1_platform_2dx4.o(.text.writeRegisterIndex) refers to systick.o(.text.SysTick_Wait) for SysTick_Wait
+    vl53l1_platform_2dx4.o(.text.writeRegisterIndex) refers to onboardleds.o(.text.FlashI2CError) for FlashI2CError
+    vl53l1_platform_2dx4.o(.ARM.exidx.text.writeRegisterIndex) refers to vl53l1_platform_2dx4.o(.text.writeRegisterIndex) for [Anonymous Symbol]
+    vl53l1_platform_2dx4.o(.text.writeRegisterIndex_nostop) refers to onboardleds.o(.text.FlashI2CTx) for FlashI2CTx
+    vl53l1_platform_2dx4.o(.text.writeRegisterIndex_nostop) refers to systick.o(.text.SysTick_Wait) for SysTick_Wait
+    vl53l1_platform_2dx4.o(.text.writeRegisterIndex_nostop) refers to onboardleds.o(.text.FlashI2CError) for FlashI2CError
+    vl53l1_platform_2dx4.o(.ARM.exidx.text.writeRegisterIndex_nostop) refers to vl53l1_platform_2dx4.o(.text.writeRegisterIndex_nostop) for [Anonymous Symbol]
+    vl53l1_platform_2dx4.o(.text.writeI2C) refers to onboardleds.o(.text.FlashI2CTx) for FlashI2CTx
+    vl53l1_platform_2dx4.o(.text.writeI2C) refers to systick.o(.text.SysTick_Wait) for SysTick_Wait
+    vl53l1_platform_2dx4.o(.text.writeI2C) refers to onboardleds.o(.text.FlashI2CError) for FlashI2CError
+    vl53l1_platform_2dx4.o(.ARM.exidx.text.writeI2C) refers to vl53l1_platform_2dx4.o(.text.writeI2C) for [Anonymous Symbol]
+    vl53l1_platform_2dx4.o(.text.readI2C) refers to onboardleds.o(.text.FlashI2CRx) for FlashI2CRx
+    vl53l1_platform_2dx4.o(.text.readI2C) refers to systick.o(.text.SysTick_Wait) for SysTick_Wait
+    vl53l1_platform_2dx4.o(.text.readI2C) refers to onboardleds.o(.text.FlashI2CError) for FlashI2CError
+    vl53l1_platform_2dx4.o(.ARM.exidx.text.readI2C) refers to vl53l1_platform_2dx4.o(.text.readI2C) for [Anonymous Symbol]
+    vl53l1_platform_2dx4.o(.text.VL53L1_WriteMulti) refers to vl53l1_platform_2dx4.o(.text.beginTxI2C) for beginTxI2C
+    vl53l1_platform_2dx4.o(.text.VL53L1_WriteMulti) refers to vl53l1_platform_2dx4.o(.text.writeRegisterIndex) for writeRegisterIndex
+    vl53l1_platform_2dx4.o(.text.VL53L1_WriteMulti) refers to vl53l1_platform_2dx4.o(.text.writeI2C) for writeI2C
+    vl53l1_platform_2dx4.o(.ARM.exidx.text.VL53L1_WriteMulti) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WriteMulti) for [Anonymous Symbol]
+    vl53l1_platform_2dx4.o(.text.VL53L1_ReadMulti) refers to vl53l1_platform_2dx4.o(.text.beginTxI2C) for beginTxI2C
+    vl53l1_platform_2dx4.o(.text.VL53L1_ReadMulti) refers to vl53l1_platform_2dx4.o(.text.writeRegisterIndex) for writeRegisterIndex
+    vl53l1_platform_2dx4.o(.text.VL53L1_ReadMulti) refers to vl53l1_platform_2dx4.o(.text.beginRxI2C) for beginRxI2C
+    vl53l1_platform_2dx4.o(.text.VL53L1_ReadMulti) refers to vl53l1_platform_2dx4.o(.text.readI2C) for readI2C
+    vl53l1_platform_2dx4.o(.ARM.exidx.text.VL53L1_ReadMulti) refers to vl53l1_platform_2dx4.o(.text.VL53L1_ReadMulti) for [Anonymous Symbol]
+    vl53l1_platform_2dx4.o(.text.VL53L1_WrByte) refers to vl53l1_platform_2dx4.o(.text.beginTxI2C) for beginTxI2C
+    vl53l1_platform_2dx4.o(.text.VL53L1_WrByte) refers to vl53l1_platform_2dx4.o(.text.writeRegisterIndex_nostop) for writeRegisterIndex_nostop
+    vl53l1_platform_2dx4.o(.text.VL53L1_WrByte) refers to vl53l1_platform_2dx4.o(.text.writeI2C) for writeI2C
+    vl53l1_platform_2dx4.o(.ARM.exidx.text.VL53L1_WrByte) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrByte) for [Anonymous Symbol]
+    vl53l1_platform_2dx4.o(.text.VL53L1_WrWord) refers to vl53l1_platform_2dx4.o(.text.beginTxI2C) for beginTxI2C
+    vl53l1_platform_2dx4.o(.text.VL53L1_WrWord) refers to vl53l1_platform_2dx4.o(.text.writeRegisterIndex) for writeRegisterIndex
+    vl53l1_platform_2dx4.o(.text.VL53L1_WrWord) refers to vl53l1_platform_2dx4.o(.text.writeI2C) for writeI2C
+    vl53l1_platform_2dx4.o(.ARM.exidx.text.VL53L1_WrWord) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrWord) for [Anonymous Symbol]
+    vl53l1_platform_2dx4.o(.text.VL53L1_WrDWord) refers to vl53l1_platform_2dx4.o(.text.beginTxI2C) for beginTxI2C
+    vl53l1_platform_2dx4.o(.text.VL53L1_WrDWord) refers to vl53l1_platform_2dx4.o(.text.writeRegisterIndex) for writeRegisterIndex
+    vl53l1_platform_2dx4.o(.ARM.exidx.text.VL53L1_WrDWord) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrDWord) for [Anonymous Symbol]
+    vl53l1_platform_2dx4.o(.text.VL53L1_RdByte) refers to vl53l1_platform_2dx4.o(.text.beginTxI2C) for beginTxI2C
+    vl53l1_platform_2dx4.o(.text.VL53L1_RdByte) refers to vl53l1_platform_2dx4.o(.text.writeRegisterIndex) for writeRegisterIndex
+    vl53l1_platform_2dx4.o(.text.VL53L1_RdByte) refers to vl53l1_platform_2dx4.o(.text.beginRxI2C) for beginRxI2C
+    vl53l1_platform_2dx4.o(.text.VL53L1_RdByte) refers to vl53l1_platform_2dx4.o(.text.readI2C) for readI2C
+    vl53l1_platform_2dx4.o(.ARM.exidx.text.VL53L1_RdByte) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdByte) for [Anonymous Symbol]
+    vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) refers to vl53l1_platform_2dx4.o(.text.beginTxI2C) for beginTxI2C
+    vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) refers to vl53l1_platform_2dx4.o(.text.writeRegisterIndex) for writeRegisterIndex
+    vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) refers to vl53l1_platform_2dx4.o(.text.beginRxI2C) for beginRxI2C
+    vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) refers to vl53l1_platform_2dx4.o(.text.readI2C) for readI2C
+    vl53l1_platform_2dx4.o(.ARM.exidx.text.VL53L1_RdWord) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) for [Anonymous Symbol]
+    vl53l1_platform_2dx4.o(.text.VL53L1_RdDWord) refers to vl53l1_platform_2dx4.o(.text.beginTxI2C) for beginTxI2C
+    vl53l1_platform_2dx4.o(.text.VL53L1_RdDWord) refers to vl53l1_platform_2dx4.o(.text.writeRegisterIndex) for writeRegisterIndex
+    vl53l1_platform_2dx4.o(.text.VL53L1_RdDWord) refers to vl53l1_platform_2dx4.o(.text.beginRxI2C) for beginRxI2C
+    vl53l1_platform_2dx4.o(.text.VL53L1_RdDWord) refers to vl53l1_platform_2dx4.o(.text.readI2C) for readI2C
+    vl53l1_platform_2dx4.o(.ARM.exidx.text.VL53L1_RdDWord) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdDWord) for [Anonymous Symbol]
+    vl53l1_platform_2dx4.o(.text.VL53L1_WaitMs) refers to systick.o(.text.SysTick_Wait) for SysTick_Wait
+    vl53l1_platform_2dx4.o(.ARM.exidx.text.VL53L1_WaitMs) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WaitMs) for [Anonymous Symbol]
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetSWVersion) refers to vl53l1x_api.o(.text.VL53L1X_GetSWVersion) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_SetI2CAddress) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrByte) for VL53L1_WrByte
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_SetI2CAddress) refers to vl53l1x_api.o(.text.VL53L1X_SetI2CAddress) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_SensorInit) refers to vl53l1x_api.o(.text.VL53L1X_ClearInterrupt) for VL53L1X_ClearInterrupt
+    vl53l1x_api.o(.text.VL53L1X_SensorInit) refers to vl53l1x_api.o(.rodata.VL51L1X_DEFAULT_CONFIGURATION) for VL51L1X_DEFAULT_CONFIGURATION
+    vl53l1x_api.o(.text.VL53L1X_SensorInit) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrByte) for VL53L1_WrByte
+    vl53l1x_api.o(.text.VL53L1X_SensorInit) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdByte) for VL53L1_RdByte
+    vl53l1x_api.o(.text.VL53L1X_SensorInit) refers to vl53l1x_api.o(.rodata.str1.1) for .L.str
+    vl53l1x_api.o(.text.VL53L1X_SensorInit) refers to uart.o(.text.Status_Check) for Status_Check
+    vl53l1x_api.o(.text.VL53L1X_SensorInit) refers to vl53l1x_api.o(.text.VL53L1X_StartRanging) for VL53L1X_StartRanging
+    vl53l1x_api.o(.text.VL53L1X_SensorInit) refers to vl53l1x_api.o(.text.VL53L1X_CheckForDataReady) for VL53L1X_CheckForDataReady
+    vl53l1x_api.o(.text.VL53L1X_SensorInit) refers to uart.o(.text.UART_printf) for UART_printf
+    vl53l1x_api.o(.text.VL53L1X_SensorInit) refers to vl53l1x_api.o(.text.VL53L1X_StopRanging) for VL53L1X_StopRanging
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_SensorInit) refers to vl53l1x_api.o(.text.VL53L1X_SensorInit) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_ClearInterrupt) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrByte) for VL53L1_WrByte
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_ClearInterrupt) refers to vl53l1x_api.o(.text.VL53L1X_ClearInterrupt) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_StartRanging) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrByte) for VL53L1_WrByte
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_StartRanging) refers to vl53l1x_api.o(.text.VL53L1X_StartRanging) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_CheckForDataReady) refers to vl53l1x_api.o(.text.VL53L1X_GetInterruptPolarity) for VL53L1X_GetInterruptPolarity
+    vl53l1x_api.o(.text.VL53L1X_CheckForDataReady) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdByte) for VL53L1_RdByte
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_CheckForDataReady) refers to vl53l1x_api.o(.text.VL53L1X_CheckForDataReady) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_StopRanging) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrByte) for VL53L1_WrByte
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_StopRanging) refers to vl53l1x_api.o(.text.VL53L1X_StopRanging) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_SetInterruptPolarity) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdByte) for VL53L1_RdByte
+    vl53l1x_api.o(.text.VL53L1X_SetInterruptPolarity) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrByte) for VL53L1_WrByte
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_SetInterruptPolarity) refers to vl53l1x_api.o(.text.VL53L1X_SetInterruptPolarity) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetInterruptPolarity) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdByte) for VL53L1_RdByte
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetInterruptPolarity) refers to vl53l1x_api.o(.text.VL53L1X_GetInterruptPolarity) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_SetTimingBudgetInMs) refers to vl53l1x_api.o(.text.VL53L1X_GetDistanceMode) for VL53L1X_GetDistanceMode
+    vl53l1x_api.o(.text.VL53L1X_SetTimingBudgetInMs) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrWord) for VL53L1_WrWord
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_SetTimingBudgetInMs) refers to vl53l1x_api.o(.text.VL53L1X_SetTimingBudgetInMs) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetDistanceMode) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdByte) for VL53L1_RdByte
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetDistanceMode) refers to vl53l1x_api.o(.text.VL53L1X_GetDistanceMode) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetTimingBudgetInMs) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) for VL53L1_RdWord
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetTimingBudgetInMs) refers to vl53l1x_api.o(.text.VL53L1X_GetTimingBudgetInMs) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_SetDistanceMode) refers to vl53l1x_api.o(.text.VL53L1X_GetTimingBudgetInMs) for VL53L1X_GetTimingBudgetInMs
+    vl53l1x_api.o(.text.VL53L1X_SetDistanceMode) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrByte) for VL53L1_WrByte
+    vl53l1x_api.o(.text.VL53L1X_SetDistanceMode) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrWord) for VL53L1_WrWord
+    vl53l1x_api.o(.text.VL53L1X_SetDistanceMode) refers to vl53l1x_api.o(.text.VL53L1X_SetTimingBudgetInMs) for VL53L1X_SetTimingBudgetInMs
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_SetDistanceMode) refers to vl53l1x_api.o(.text.VL53L1X_SetDistanceMode) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_SetInterMeasurementInMs) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) for VL53L1_RdWord
+    vl53l1x_api.o(.text.VL53L1X_SetInterMeasurementInMs) refers to dflt_clz.o(x$fpl$dfltu) for __aeabi_ui2d
+    vl53l1x_api.o(.text.VL53L1X_SetInterMeasurementInMs) refers to dmul.o(x$fpl$dmul) for __aeabi_dmul
+    vl53l1x_api.o(.text.VL53L1X_SetInterMeasurementInMs) refers to dfixu.o(x$fpl$dfixu) for __aeabi_d2uiz
+    vl53l1x_api.o(.text.VL53L1X_SetInterMeasurementInMs) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrDWord) for VL53L1_WrDWord
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_SetInterMeasurementInMs) refers to vl53l1x_api.o(.text.VL53L1X_SetInterMeasurementInMs) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetInterMeasurementInMs) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdDWord) for VL53L1_RdDWord
+    vl53l1x_api.o(.text.VL53L1X_GetInterMeasurementInMs) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) for VL53L1_RdWord
+    vl53l1x_api.o(.text.VL53L1X_GetInterMeasurementInMs) refers to dflt_clz.o(x$fpl$dflt) for __aeabi_i2d
+    vl53l1x_api.o(.text.VL53L1X_GetInterMeasurementInMs) refers to dmul.o(x$fpl$dmul) for __aeabi_dmul
+    vl53l1x_api.o(.text.VL53L1X_GetInterMeasurementInMs) refers to ddiv.o(x$fpl$ddiv) for __aeabi_ddiv
+    vl53l1x_api.o(.text.VL53L1X_GetInterMeasurementInMs) refers to dfix.o(x$fpl$dfix) for __aeabi_d2iz
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetInterMeasurementInMs) refers to vl53l1x_api.o(.text.VL53L1X_GetInterMeasurementInMs) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_BootState) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdByte) for VL53L1_RdByte
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_BootState) refers to vl53l1x_api.o(.text.VL53L1X_BootState) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetSensorId) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) for VL53L1_RdWord
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetSensorId) refers to vl53l1x_api.o(.text.VL53L1X_GetSensorId) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetDistance) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) for VL53L1_RdWord
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetDistance) refers to vl53l1x_api.o(.text.VL53L1X_GetDistance) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetSignalPerSpad) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) for VL53L1_RdWord
+    vl53l1x_api.o(.text.VL53L1X_GetSignalPerSpad) refers to dflt_clz.o(x$fpl$dflt) for __aeabi_i2d
+    vl53l1x_api.o(.text.VL53L1X_GetSignalPerSpad) refers to dmul.o(x$fpl$dmul) for __aeabi_dmul
+    vl53l1x_api.o(.text.VL53L1X_GetSignalPerSpad) refers to ddiv.o(x$fpl$ddiv) for __aeabi_ddiv
+    vl53l1x_api.o(.text.VL53L1X_GetSignalPerSpad) refers to dfix.o(x$fpl$dfix) for __aeabi_d2iz
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetSignalPerSpad) refers to vl53l1x_api.o(.text.VL53L1X_GetSignalPerSpad) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetAmbientPerSpad) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) for VL53L1_RdWord
+    vl53l1x_api.o(.text.VL53L1X_GetAmbientPerSpad) refers to dflt_clz.o(x$fpl$dflt) for __aeabi_i2d
+    vl53l1x_api.o(.text.VL53L1X_GetAmbientPerSpad) refers to dmul.o(x$fpl$dmul) for __aeabi_dmul
+    vl53l1x_api.o(.text.VL53L1X_GetAmbientPerSpad) refers to ddiv.o(x$fpl$ddiv) for __aeabi_ddiv
+    vl53l1x_api.o(.text.VL53L1X_GetAmbientPerSpad) refers to dfix.o(x$fpl$dfix) for __aeabi_d2iz
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetAmbientPerSpad) refers to vl53l1x_api.o(.text.VL53L1X_GetAmbientPerSpad) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetSignalRate) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) for VL53L1_RdWord
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetSignalRate) refers to vl53l1x_api.o(.text.VL53L1X_GetSignalRate) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetSpadNb) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) for VL53L1_RdWord
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetSpadNb) refers to vl53l1x_api.o(.text.VL53L1X_GetSpadNb) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetAmbientRate) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) for VL53L1_RdWord
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetAmbientRate) refers to vl53l1x_api.o(.text.VL53L1X_GetAmbientRate) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetRangeStatus) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdByte) for VL53L1_RdByte
+    vl53l1x_api.o(.text.VL53L1X_GetRangeStatus) refers to vl53l1x_api.o(.rodata.status_rtn) for status_rtn
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetRangeStatus) refers to vl53l1x_api.o(.text.VL53L1X_GetRangeStatus) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetResult) refers to vl53l1_platform_2dx4.o(.text.VL53L1_ReadMulti) for VL53L1_ReadMulti
+    vl53l1x_api.o(.text.VL53L1X_GetResult) refers to vl53l1x_api.o(.rodata.status_rtn) for status_rtn
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetResult) refers to vl53l1x_api.o(.text.VL53L1X_GetResult) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_SetOffset) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrWord) for VL53L1_WrWord
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_SetOffset) refers to vl53l1x_api.o(.text.VL53L1X_SetOffset) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetOffset) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) for VL53L1_RdWord
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetOffset) refers to vl53l1x_api.o(.text.VL53L1X_GetOffset) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_SetXtalk) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrWord) for VL53L1_WrWord
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_SetXtalk) refers to vl53l1x_api.o(.text.VL53L1X_SetXtalk) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetXtalk) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdDWord) for VL53L1_RdDWord
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetXtalk) refers to vl53l1x_api.o(.text.VL53L1X_GetXtalk) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_SetDistanceThreshold) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdByte) for VL53L1_RdByte
+    vl53l1x_api.o(.text.VL53L1X_SetDistanceThreshold) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrByte) for VL53L1_WrByte
+    vl53l1x_api.o(.text.VL53L1X_SetDistanceThreshold) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrWord) for VL53L1_WrWord
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_SetDistanceThreshold) refers to vl53l1x_api.o(.text.VL53L1X_SetDistanceThreshold) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetDistanceThresholdWindow) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdByte) for VL53L1_RdByte
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetDistanceThresholdWindow) refers to vl53l1x_api.o(.text.VL53L1X_GetDistanceThresholdWindow) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetDistanceThresholdLow) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) for VL53L1_RdWord
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetDistanceThresholdLow) refers to vl53l1x_api.o(.text.VL53L1X_GetDistanceThresholdLow) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetDistanceThresholdHigh) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) for VL53L1_RdWord
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetDistanceThresholdHigh) refers to vl53l1x_api.o(.text.VL53L1X_GetDistanceThresholdHigh) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_SetROICenter) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrByte) for VL53L1_WrByte
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_SetROICenter) refers to vl53l1x_api.o(.text.VL53L1X_SetROICenter) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetROICenter) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdByte) for VL53L1_RdByte
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetROICenter) refers to vl53l1x_api.o(.text.VL53L1X_GetROICenter) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_SetROI) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdByte) for VL53L1_RdByte
+    vl53l1x_api.o(.text.VL53L1X_SetROI) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrByte) for VL53L1_WrByte
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_SetROI) refers to vl53l1x_api.o(.text.VL53L1X_SetROI) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetROI_XY) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdByte) for VL53L1_RdByte
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetROI_XY) refers to vl53l1x_api.o(.text.VL53L1X_GetROI_XY) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_SetSignalThreshold) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrWord) for VL53L1_WrWord
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_SetSignalThreshold) refers to vl53l1x_api.o(.text.VL53L1X_SetSignalThreshold) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetSignalThreshold) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) for VL53L1_RdWord
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetSignalThreshold) refers to vl53l1x_api.o(.text.VL53L1X_GetSignalThreshold) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_SetSigmaThreshold) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrWord) for VL53L1_WrWord
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_SetSigmaThreshold) refers to vl53l1x_api.o(.text.VL53L1X_SetSigmaThreshold) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_GetSigmaThreshold) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) for VL53L1_RdWord
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_GetSigmaThreshold) refers to vl53l1x_api.o(.text.VL53L1X_GetSigmaThreshold) for [Anonymous Symbol]
+    vl53l1x_api.o(.text.VL53L1X_StartTemperatureUpdate) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WrByte) for VL53L1_WrByte
+    vl53l1x_api.o(.text.VL53L1X_StartTemperatureUpdate) refers to vl53l1x_api.o(.text.VL53L1X_StartRanging) for VL53L1X_StartRanging
+    vl53l1x_api.o(.text.VL53L1X_StartTemperatureUpdate) refers to vl53l1x_api.o(.text.VL53L1X_CheckForDataReady) for VL53L1X_CheckForDataReady
+    vl53l1x_api.o(.text.VL53L1X_StartTemperatureUpdate) refers to vl53l1x_api.o(.text.VL53L1X_ClearInterrupt) for VL53L1X_ClearInterrupt
+    vl53l1x_api.o(.text.VL53L1X_StartTemperatureUpdate) refers to vl53l1x_api.o(.text.VL53L1X_StopRanging) for VL53L1X_StopRanging
+    vl53l1x_api.o(.ARM.exidx.text.VL53L1X_StartTemperatureUpdate) refers to vl53l1x_api.o(.text.VL53L1X_StartTemperatureUpdate) for [Anonymous Symbol]
+    onboardleds.o(.text.FlashLED1) refers to systick.o(.text.SysTick_Wait10ms) for SysTick_Wait10ms
+    onboardleds.o(.ARM.exidx.text.FlashLED1) refers to onboardleds.o(.text.FlashLED1) for [Anonymous Symbol]
+    onboardleds.o(.text.FlashLED2) refers to systick.o(.text.SysTick_Wait10ms) for SysTick_Wait10ms
+    onboardleds.o(.ARM.exidx.text.FlashLED2) refers to onboardleds.o(.text.FlashLED2) for [Anonymous Symbol]
+    onboardleds.o(.text.FlashLED3) refers to systick.o(.text.SysTick_Wait10ms) for SysTick_Wait10ms
+    onboardleds.o(.ARM.exidx.text.FlashLED3) refers to onboardleds.o(.text.FlashLED3) for [Anonymous Symbol]
+    onboardleds.o(.text.FlashLED4) refers to systick.o(.text.SysTick_Wait10ms) for SysTick_Wait10ms
+    onboardleds.o(.ARM.exidx.text.FlashLED4) refers to onboardleds.o(.text.FlashLED4) for [Anonymous Symbol]
+    onboardleds.o(.text.FlashAllLEDs) refers to systick.o(.text.SysTick_Wait10ms) for SysTick_Wait10ms
+    onboardleds.o(.ARM.exidx.text.FlashAllLEDs) refers to onboardleds.o(.text.FlashAllLEDs) for [Anonymous Symbol]
+    onboardleds.o(.ARM.exidx.text.FlashI2CTx) refers to onboardleds.o(.text.FlashI2CTx) for [Anonymous Symbol]
+    onboardleds.o(.ARM.exidx.text.FlashI2CRx) refers to onboardleds.o(.text.FlashI2CRx) for [Anonymous Symbol]
+    onboardleds.o(.ARM.exidx.text.FlashI2CError) refers to onboardleds.o(.text.FlashI2CError) for [Anonymous Symbol]
+    onboardleds.o(.text.onboardLEDs_Init) refers to onboardleds.o(.text.FlashAllLEDs) for FlashAllLEDs
+    onboardleds.o(.ARM.exidx.text.onboardLEDs_Init) refers to onboardleds.o(.text.onboardLEDs_Init) for [Anonymous Symbol]
+    uart.o(.ARM.exidx.text.UART_Init) refers to uart.o(.text.UART_Init) for [Anonymous Symbol]
+    uart.o(.ARM.exidx.text.UART_InChar) refers to uart.o(.text.UART_InChar) for [Anonymous Symbol]
+    uart.o(.ARM.exidx.text.UART_OutChar) refers to uart.o(.text.UART_OutChar) for [Anonymous Symbol]
+    uart.o(.text.UART_printf) refers to uart.o(.text.UART_OutChar) for UART_OutChar
+    uart.o(.ARM.exidx.text.UART_printf) refers to uart.o(.text.UART_printf) for [Anonymous Symbol]
+    uart.o(.text.Status_Check) refers to uart.o(.text.UART_printf) for UART_printf
+    uart.o(.text.Status_Check) refers to uart.o(.bss.printf_buffer) for printf_buffer
+    uart.o(.text.Status_Check) refers to uart.o(.rodata.str1.1) for .L.str
+    uart.o(.text.Status_Check) refers to sprintf.o(.text) for sprintf
+    uart.o(.ARM.exidx.text.Status_Check) refers to uart.o(.text.Status_Check) for [Anonymous Symbol]
+    2dx_studio_8.o(.ARM.exidx.text.I2C_Init) refers to 2dx_studio_8.o(.text.I2C_Init) for [Anonymous Symbol]
+    2dx_studio_8.o(.ARM.exidx.text.PortG_Init) refers to 2dx_studio_8.o(.text.PortG_Init) for [Anonymous Symbol]
+    2dx_studio_8.o(.text.VL53L1X_XSHUT) refers to onboardleds.o(.text.FlashAllLEDs) for FlashAllLEDs
+    2dx_studio_8.o(.text.VL53L1X_XSHUT) refers to systick.o(.text.SysTick_Wait10ms) for SysTick_Wait10ms
+    2dx_studio_8.o(.ARM.exidx.text.VL53L1X_XSHUT) refers to 2dx_studio_8.o(.text.VL53L1X_XSHUT) for [Anonymous Symbol]
+    2dx_studio_8.o(.text.main) refers to pll.o(.text.PLL_Init) for PLL_Init
+    2dx_studio_8.o(.text.main) refers to systick.o(.text.SysTick_Init) for SysTick_Init
+    2dx_studio_8.o(.text.main) refers to onboardleds.o(.text.onboardLEDs_Init) for onboardLEDs_Init
+    2dx_studio_8.o(.text.main) refers to 2dx_studio_8.o(.text.I2C_Init) for I2C_Init
+    2dx_studio_8.o(.text.main) refers to milestone2.o(.text.I2C_Init) for I2C_Init
+    2dx_studio_8.o(.text.main) refers to uart.o(.text.UART_Init) for UART_Init
+    2dx_studio_8.o(.text.main) refers to 2dx_studio_8.o(.rodata.str1.1) for .L.str
+    2dx_studio_8.o(.text.main) refers to uart.o(.text.UART_printf) for UART_printf
+    2dx_studio_8.o(.text.main) refers to 2dx_studio_8.o(.bss.printf_buffer) for printf_buffer
+    2dx_studio_8.o(.text.main) refers to sprintf.o(.text) for sprintf
+    2dx_studio_8.o(.text.main) refers to 2dx_studio_8.o(.data.dev) for dev
+    2dx_studio_8.o(.text.main) refers to milestone2.o(.data.dev) for dev
+    2dx_studio_8.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_GetSensorId) for VL53L1X_GetSensorId
+    2dx_studio_8.o(.text.main) refers to 2dx_studio_8.o(.bss.status) for status
+    2dx_studio_8.o(.text.main) refers to milestone2.o(.bss.status) for status
+    2dx_studio_8.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_BootState) for VL53L1X_BootState
+    2dx_studio_8.o(.text.main) refers to systick.o(.text.SysTick_Wait10ms) for SysTick_Wait10ms
+    2dx_studio_8.o(.text.main) refers to onboardleds.o(.text.FlashAllLEDs) for FlashAllLEDs
+    2dx_studio_8.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_ClearInterrupt) for VL53L1X_ClearInterrupt
+    2dx_studio_8.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_SensorInit) for VL53L1X_SensorInit
+    2dx_studio_8.o(.text.main) refers to uart.o(.text.Status_Check) for Status_Check
+    2dx_studio_8.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_StartRanging) for VL53L1X_StartRanging
+    2dx_studio_8.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_CheckForDataReady) for VL53L1X_CheckForDataReady
+    2dx_studio_8.o(.text.main) refers to onboardleds.o(.text.FlashLED3) for FlashLED3
+    2dx_studio_8.o(.text.main) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WaitMs) for VL53L1_WaitMs
+    2dx_studio_8.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_GetRangeStatus) for VL53L1X_GetRangeStatus
+    2dx_studio_8.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_GetDistance) for VL53L1X_GetDistance
+    2dx_studio_8.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_GetSignalRate) for VL53L1X_GetSignalRate
+    2dx_studio_8.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_GetAmbientRate) for VL53L1X_GetAmbientRate
+    2dx_studio_8.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_GetSpadNb) for VL53L1X_GetSpadNb
+    2dx_studio_8.o(.text.main) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdByte) for VL53L1_RdByte
+    2dx_studio_8.o(.text.main) refers to vl53l1_platform_2dx4.o(.text.VL53L1_RdWord) for VL53L1_RdWord
+    2dx_studio_8.o(.text.main) refers to onboardleds.o(.text.FlashLED4) for FlashLED4
+    2dx_studio_8.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_StopRanging) for VL53L1X_StopRanging
+    2dx_studio_8.o(.ARM.exidx.text.main) refers to 2dx_studio_8.o(.text.main) for [Anonymous Symbol]
+    milestone2.o(.ARM.exidx.text.I2C_Init) refers to milestone2.o(.text.I2C_Init) for [Anonymous Symbol]
+    milestone2.o(.ARM.exidx.text.PortH_Init) refers to milestone2.o(.text.PortH_Init) for [Anonymous Symbol]
+    milestone2.o(.ARM.exidx.text.PortN_Init) refers to milestone2.o(.text.PortN_Init) for [Anonymous Symbol]
+    milestone2.o(.ARM.exidx.text.PortG_Init) refers to milestone2.o(.text.PortG_Init) for [Anonymous Symbol]
+    milestone2.o(.text.VL53L1X_XSHUT) refers to onboardleds.o(.text.FlashAllLEDs) for FlashAllLEDs
+    milestone2.o(.text.VL53L1X_XSHUT) refers to systick.o(.text.SysTick_Wait10ms) for SysTick_Wait10ms
+    milestone2.o(.ARM.exidx.text.VL53L1X_XSHUT) refers to milestone2.o(.text.VL53L1X_XSHUT) for [Anonymous Symbol]
+    milestone2.o(.ARM.exidx.text.rotate45CW) refers to milestone2.o(.text.rotate45CW) for [Anonymous Symbol]
+    milestone2.o(.text.main) refers to pll.o(.text.PLL_Init) for PLL_Init
+    milestone2.o(.text.main) refers to systick.o(.text.SysTick_Init) for SysTick_Init
+    milestone2.o(.text.main) refers to onboardleds.o(.text.onboardLEDs_Init) for onboardLEDs_Init
+    milestone2.o(.text.main) refers to 2dx_studio_8.o(.text.I2C_Init) for I2C_Init
+    milestone2.o(.text.main) refers to milestone2.o(.text.I2C_Init) for I2C_Init
+    milestone2.o(.text.main) refers to uart.o(.text.UART_Init) for UART_Init
+    milestone2.o(.text.main) refers to milestone2.o(.text.PortH_Init) for PortH_Init
+    milestone2.o(.text.main) refers to milestone2.o(.text.PortN_Init) for PortN_Init
+    milestone2.o(.text.main) refers to 2dx_studio_8.o(.text.PortG_Init) for PortG_Init
+    milestone2.o(.text.main) refers to milestone2.o(.text.PortG_Init) for PortG_Init
+    milestone2.o(.text.main) refers to milestone2.o(.rodata.str1.1) for .L.str
+    milestone2.o(.text.main) refers to uart.o(.text.UART_printf) for UART_printf
+    milestone2.o(.text.main) refers to 2dx_studio_8.o(.text.VL53L1X_XSHUT) for VL53L1X_XSHUT
+    milestone2.o(.text.main) refers to milestone2.o(.text.VL53L1X_XSHUT) for VL53L1X_XSHUT
+    milestone2.o(.text.main) refers to systick.o(.text.SysTick_Wait10ms) for SysTick_Wait10ms
+    milestone2.o(.text.main) refers to 2dx_studio_8.o(.data.dev) for dev
+    milestone2.o(.text.main) refers to milestone2.o(.data.dev) for dev
+    milestone2.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_GetSensorId) for VL53L1X_GetSensorId
+    milestone2.o(.text.main) refers to 2dx_studio_8.o(.bss.status) for status
+    milestone2.o(.text.main) refers to milestone2.o(.bss.status) for status
+    milestone2.o(.text.main) refers to milestone2.o(.bss.printf_buffer) for printf_buffer
+    milestone2.o(.text.main) refers to sprintf.o(.text) for sprintf
+    milestone2.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_BootState) for VL53L1X_BootState
+    milestone2.o(.text.main) refers to onboardleds.o(.text.FlashAllLEDs) for FlashAllLEDs
+    milestone2.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_ClearInterrupt) for VL53L1X_ClearInterrupt
+    milestone2.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_SensorInit) for VL53L1X_SensorInit
+    milestone2.o(.text.main) refers to uart.o(.text.Status_Check) for Status_Check
+    milestone2.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_SetDistanceMode) for VL53L1X_SetDistanceMode
+    milestone2.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_SetTimingBudgetInMs) for VL53L1X_SetTimingBudgetInMs
+    milestone2.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_SetInterMeasurementInMs) for VL53L1X_SetInterMeasurementInMs
+    milestone2.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_StartRanging) for VL53L1X_StartRanging
+    milestone2.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_CheckForDataReady) for VL53L1X_CheckForDataReady
+    milestone2.o(.text.main) refers to vl53l1_platform_2dx4.o(.text.VL53L1_WaitMs) for VL53L1_WaitMs
+    milestone2.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_GetDistance) for VL53L1X_GetDistance
+    milestone2.o(.text.main) refers to onboardleds.o(.text.FlashLED4) for FlashLED4
+    milestone2.o(.text.main) refers to milestone2.o(.text.rotate45CW) for rotate45CW
+    milestone2.o(.text.main) refers to vl53l1x_api.o(.text.VL53L1X_StopRanging) for VL53L1X_StopRanging
+    milestone2.o(.ARM.exidx.text.main) refers to milestone2.o(.text.main) for [Anonymous Symbol]
+    startup_msp432e401y_uvision.o(STACK) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_msp432e401y_uvision.o(HEAP) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_msp432e401y_uvision.o(RESET) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_msp432e401y_uvision.o(RESET) refers to startup_msp432e401y_uvision.o(STACK) for __initial_sp
+    startup_msp432e401y_uvision.o(RESET) refers to startup_msp432e401y_uvision.o(.text) for Reset_Handler
+    startup_msp432e401y_uvision.o(.text) refers (Special) to heapauxi.o(.text) for __use_two_region_memory
+    startup_msp432e401y_uvision.o(.text) refers to system_msp432e401y.o(.text.SystemInit) for SystemInit
+    startup_msp432e401y_uvision.o(.text) refers to __main.o(!!!main) for __main
+    startup_msp432e401y_uvision.o(.text) refers to startup_msp432e401y_uvision.o(HEAP) for Heap_Mem
+    startup_msp432e401y_uvision.o(.text) refers to startup_msp432e401y_uvision.o(STACK) for Stack_Mem
+    system_msp432e401y.o(.text.SystemCoreClockUpdate) refers to system_msp432e401y.o(.data.SystemCoreClock) for SystemCoreClock
+    system_msp432e401y.o(.ARM.exidx.text.SystemCoreClockUpdate) refers to system_msp432e401y.o(.text.SystemCoreClockUpdate) for [Anonymous Symbol]
+    system_msp432e401y.o(.text.SystemInit) refers to system_msp432e401y.o(.data.SystemCoreClock) for SystemCoreClock
+    system_msp432e401y.o(.ARM.exidx.text.SystemInit) refers to system_msp432e401y.o(.text.SystemInit) for [Anonymous Symbol]
+    sprintf.o(.text) refers (Special) to _printf_a.o(.ARM.Collect$$_printf_percent$$00000006) for _printf_a
+    sprintf.o(.text) refers (Special) to _printf_c.o(.ARM.Collect$$_printf_percent$$00000013) for _printf_c
+    sprintf.o(.text) refers (Special) to _printf_charcount.o(.text) for _printf_charcount
+    sprintf.o(.text) refers (Special) to _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) for _printf_d
+    sprintf.o(.text) refers (Special) to _printf_e.o(.ARM.Collect$$_printf_percent$$00000004) for _printf_e
+    sprintf.o(.text) refers (Special) to _printf_f.o(.ARM.Collect$$_printf_percent$$00000003) for _printf_f
+    sprintf.o(.text) refers (Special) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    sprintf.o(.text) refers (Special) to printf2.o(x$fpl$printf2) for _printf_fp_hex
+    sprintf.o(.text) refers (Special) to _printf_g.o(.ARM.Collect$$_printf_percent$$00000005) for _printf_g
+    sprintf.o(.text) refers (Special) to _printf_i.o(.ARM.Collect$$_printf_percent$$00000008) for _printf_i
+    sprintf.o(.text) refers (Special) to _printf_dec.o(.text) for _printf_int_dec
+    sprintf.o(.text) refers (Special) to _printf_l.o(.ARM.Collect$$_printf_percent$$00000012) for _printf_l
+    sprintf.o(.text) refers (Special) to _printf_lc.o(.ARM.Collect$$_printf_percent$$00000015) for _printf_lc
+    sprintf.o(.text) refers (Special) to _printf_ll.o(.ARM.Collect$$_printf_percent$$00000007) for _printf_ll
+    sprintf.o(.text) refers (Special) to _printf_lld.o(.ARM.Collect$$_printf_percent$$0000000E) for _printf_lld
+    sprintf.o(.text) refers (Special) to _printf_lli.o(.ARM.Collect$$_printf_percent$$0000000D) for _printf_lli
+    sprintf.o(.text) refers (Special) to _printf_llo.o(.ARM.Collect$$_printf_percent$$00000010) for _printf_llo
+    sprintf.o(.text) refers (Special) to _printf_llu.o(.ARM.Collect$$_printf_percent$$0000000F) for _printf_llu
+    sprintf.o(.text) refers (Special) to _printf_llx.o(.ARM.Collect$$_printf_percent$$00000011) for _printf_llx
+    sprintf.o(.text) refers (Special) to _printf_longlong_dec.o(.text) for _printf_longlong_dec
+    sprintf.o(.text) refers (Special) to _printf_hex_int_ll_ptr.o(.text) for _printf_longlong_hex
+    sprintf.o(.text) refers (Special) to _printf_oct_int_ll.o(.text) for _printf_longlong_oct
+    sprintf.o(.text) refers (Special) to _printf_ls.o(.ARM.Collect$$_printf_percent$$00000016) for _printf_ls
+    sprintf.o(.text) refers (Special) to _printf_n.o(.ARM.Collect$$_printf_percent$$00000001) for _printf_n
+    sprintf.o(.text) refers (Special) to _printf_o.o(.ARM.Collect$$_printf_percent$$0000000B) for _printf_o
+    sprintf.o(.text) refers (Special) to _printf_p.o(.ARM.Collect$$_printf_percent$$00000002) for _printf_p
+    sprintf.o(.text) refers (Special) to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    sprintf.o(.text) refers (Special) to _printf_pad.o(.text) for _printf_post_padding
+    sprintf.o(.text) refers (Special) to _printf_s.o(.ARM.Collect$$_printf_percent$$00000014) for _printf_s
+    sprintf.o(.text) refers (Special) to _printf_str.o(.text) for _printf_str
+    sprintf.o(.text) refers (Special) to _printf_truncate.o(.text) for _printf_truncate_signed
+    sprintf.o(.text) refers (Special) to _printf_u.o(.ARM.Collect$$_printf_percent$$0000000A) for _printf_u
+    sprintf.o(.text) refers (Special) to _printf_wctomb.o(.text) for _printf_wctomb
+    sprintf.o(.text) refers (Special) to _printf_x.o(.ARM.Collect$$_printf_percent$$0000000C) for _printf_x
+    sprintf.o(.text) refers to _printf_char_common.o(.text) for _printf_char_common
+    sprintf.o(.text) refers to _sputc.o(.text) for _sputc
+    __main.o(!!!main) refers to __rtentry.o(.ARM.Collect$$rtentry$$00000000) for __rt_entry
+    ddiv.o(x$fpl$drdiv) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    ddiv.o(x$fpl$drdiv) refers to ddiv.o(x$fpl$ddiv) for ddiv_entry
+    ddiv.o(x$fpl$ddiv) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    ddiv.o(x$fpl$ddiv) refers to dretinf.o(x$fpl$dretinf) for __fpl_dretinf
+    ddiv.o(x$fpl$ddiv) refers to dnaninf.o(x$fpl$dnaninf) for __fpl_dnaninf
+    dfix.o(x$fpl$dfix) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dfix.o(x$fpl$dfix) refers to dnaninf.o(x$fpl$dnaninf) for __fpl_dnaninf
+    dfix.o(x$fpl$dfixr) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dfix.o(x$fpl$dfixr) refers to dnaninf.o(x$fpl$dnaninf) for __fpl_dnaninf
+    dfixu.o(x$fpl$dfixu) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dfixu.o(x$fpl$dfixu) refers to dnaninf.o(x$fpl$dnaninf) for __fpl_dnaninf
+    dfixu.o(x$fpl$dfixur) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dfixu.o(x$fpl$dfixur) refers to dnaninf.o(x$fpl$dnaninf) for __fpl_dnaninf
+    dflt_clz.o(x$fpl$dfltu) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dflt_clz.o(x$fpl$dflt) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dflt_clz.o(x$fpl$dfltn) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dmul.o(x$fpl$dmul) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dmul.o(x$fpl$dmul) refers to dretinf.o(x$fpl$dretinf) for __fpl_dretinf
+    dmul.o(x$fpl$dmul) refers to dnaninf.o(x$fpl$dnaninf) for __fpl_dnaninf
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$0000000A) for __rt_entry_li
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$0000000D) for __rt_entry_main
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$0000000C) for __rt_entry_postli_1
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$00000009) for __rt_entry_postsh_1
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry2.o(.ARM.Collect$$rtentry$$00000002) for __rt_entry_presh_1
+    __rtentry.o(.ARM.Collect$$rtentry$$00000000) refers (Special) to __rtentry4.o(.ARM.Collect$$rtentry$$00000004) for __rt_entry_sh
+    __printf.o(.text) refers to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    _printf_str.o(.text) refers (Special) to _printf_char.o(.text) for _printf_cs_common
+    _printf_str.o(.text) refers (Weak) to _printf_pad.o(.text) for _printf_pre_padding
+    _printf_str.o(.text) refers (Weak) to _printf_pad.o(.text) for _printf_post_padding
+    _printf_dec.o(.text) refers (Weak) to _printf_truncate.o(.text) for _printf_truncate_signed
+    _printf_dec.o(.text) refers (Weak) to _printf_truncate.o(.text) for _printf_truncate_unsigned
+    _printf_dec.o(.text) refers to _printf_intcommon.o(.text) for _printf_int_common
+    _printf_char_common.o(.text) refers to __printf_flags_ss_wp.o(.text) for __printf
+    _printf_wctomb.o(.text) refers (Special) to _printf_wchar.o(.text) for _printf_lcs_common
+    _printf_wctomb.o(.text) refers to _c16rtomb.o(.text) for _wcrtomb
+    _printf_wctomb.o(.text) refers (Weak) to _printf_pad.o(.text) for _printf_pre_padding
+    _printf_wctomb.o(.text) refers (Weak) to _printf_pad.o(.text) for _printf_post_padding
+    _printf_wctomb.o(.text) refers to _printf_wctomb.o(.constdata) for .constdata
+    _printf_wctomb.o(.constdata) refers (Special) to _printf_wchar.o(.text) for _printf_lcs_common
+    _printf_longlong_dec.o(.text) refers to lludiv10.o(.text) for _ll_udiv10
+    _printf_longlong_dec.o(.text) refers to _printf_intcommon.o(.text) for _printf_int_common
+    _printf_oct_ll.o(.text) refers to _printf_intcommon.o(.text) for _printf_int_common
+    _printf_oct_int.o(.text) refers (Weak) to _printf_truncate.o(.text) for _printf_truncate_unsigned
+    _printf_oct_int.o(.text) refers to _printf_intcommon.o(.text) for _printf_int_common
+    _printf_oct_int_ll.o(.text) refers to _printf_intcommon.o(.text) for _printf_int_common
+    _printf_oct_int_ll.o(.text) refers (Weak) to _printf_truncate.o(.text) for _printf_truncate_unsigned
+    _printf_hex_ll.o(.text) refers to _printf_intcommon.o(.text) for _printf_int_common
+    _printf_hex_ll.o(.text) refers to _printf_hex_ll.o(.constdata) for .constdata
+    _printf_hex_int.o(.text) refers (Weak) to _printf_truncate.o(.text) for _printf_truncate_unsigned
+    _printf_hex_int.o(.text) refers to _printf_intcommon.o(.text) for _printf_int_common
+    _printf_hex_int.o(.text) refers to _printf_hex_int.o(.constdata) for .constdata
+    _printf_hex_int_ll.o(.text) refers to _printf_intcommon.o(.text) for _printf_int_common
+    _printf_hex_int_ll.o(.text) refers (Weak) to _printf_truncate.o(.text) for _printf_truncate_unsigned
+    _printf_hex_int_ll.o(.text) refers to _printf_hex_int_ll.o(.constdata) for .constdata
+    _printf_hex_ptr.o(.text) refers to _printf_intcommon.o(.text) for _printf_int_common
+    _printf_hex_ptr.o(.text) refers to _printf_hex_ptr.o(.constdata) for .constdata
+    _printf_hex_int_ptr.o(.text) refers to _printf_intcommon.o(.text) for _printf_int_common
+    _printf_hex_int_ptr.o(.text) refers (Weak) to _printf_truncate.o(.text) for _printf_truncate_unsigned
+    _printf_hex_int_ptr.o(.text) refers to _printf_hex_int_ptr.o(.constdata) for .constdata
+    _printf_hex_ll_ptr.o(.text) refers to _printf_intcommon.o(.text) for _printf_int_common
+    _printf_hex_ll_ptr.o(.text) refers to _printf_hex_ll_ptr.o(.constdata) for .constdata
+    _printf_hex_int_ll_ptr.o(.text) refers to _printf_intcommon.o(.text) for _printf_int_common
+    _printf_hex_int_ll_ptr.o(.text) refers (Weak) to _printf_truncate.o(.text) for _printf_truncate_unsigned
+    _printf_hex_int_ll_ptr.o(.text) refers to _printf_hex_int_ll_ptr.o(.constdata) for .constdata
+    __printf_flags.o(.text) refers to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    __printf_flags.o(.text) refers to __printf_flags.o(.constdata) for .constdata
+    __printf_ss.o(.text) refers to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    __printf_flags_ss.o(.text) refers to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    __printf_flags_ss.o(.text) refers to __printf_flags_ss.o(.constdata) for .constdata
+    __printf_wp.o(.text) refers to __printf_wp.o(i._is_digit) for _is_digit
+    __printf_wp.o(.text) refers to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    __printf_flags_wp.o(.text) refers to __printf_wp.o(i._is_digit) for _is_digit
+    __printf_flags_wp.o(.text) refers to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    __printf_flags_wp.o(.text) refers to __printf_flags_wp.o(.constdata) for .constdata
+    __printf_ss_wp.o(.text) refers to __printf_wp.o(i._is_digit) for _is_digit
+    __printf_ss_wp.o(.text) refers to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    __printf_flags_ss_wp.o(.text) refers to __printf_wp.o(i._is_digit) for _is_digit
+    __printf_flags_ss_wp.o(.text) refers to _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) for _printf_percent
+    __printf_flags_ss_wp.o(.text) refers to __printf_flags_ss_wp.o(.constdata) for .constdata
+    _printf_c.o(.ARM.Collect$$_printf_percent$$00000013) refers (Weak) to _printf_char.o(.text) for _printf_char
+    _printf_s.o(.ARM.Collect$$_printf_percent$$00000014) refers (Weak) to _printf_char.o(.text) for _printf_string
+    _printf_n.o(.ARM.Collect$$_printf_percent$$00000001) refers (Weak) to _printf_charcount.o(.text) for _printf_charcount
+    _printf_x.o(.ARM.Collect$$_printf_percent$$0000000C) refers (Weak) to _printf_hex_int_ll_ptr.o(.text) for _printf_int_hex
+    _printf_p.o(.ARM.Collect$$_printf_percent$$00000002) refers (Weak) to _printf_hex_int_ll_ptr.o(.text) for _printf_hex_ptr
+    _printf_o.o(.ARM.Collect$$_printf_percent$$0000000B) refers (Weak) to _printf_oct_int_ll.o(.text) for _printf_int_oct
+    _printf_i.o(.ARM.Collect$$_printf_percent$$00000008) refers (Weak) to _printf_dec.o(.text) for _printf_int_dec
+    _printf_d.o(.ARM.Collect$$_printf_percent$$00000009) refers (Weak) to _printf_dec.o(.text) for _printf_int_dec
+    _printf_u.o(.ARM.Collect$$_printf_percent$$0000000A) refers (Weak) to _printf_dec.o(.text) for _printf_int_dec
+    _printf_f.o(.ARM.Collect$$_printf_percent$$00000003) refers (Weak) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    _printf_e.o(.ARM.Collect$$_printf_percent$$00000004) refers (Weak) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    _printf_g.o(.ARM.Collect$$_printf_percent$$00000005) refers (Weak) to printf1.o(x$fpl$printf1) for _printf_fp_dec
+    _printf_a.o(.ARM.Collect$$_printf_percent$$00000006) refers (Weak) to printf2.o(x$fpl$printf2) for _printf_fp_hex
+    _printf_percent.o(.ARM.Collect$$_printf_percent$$00000000) refers (Special) to _printf_percent_end.o(.ARM.Collect$$_printf_percent$$00000017) for _printf_percent_end
+    _printf_lli.o(.ARM.Collect$$_printf_percent$$0000000D) refers (Special) to _printf_ll.o(.ARM.Collect$$_printf_percent$$00000007) for _printf_ll
+    _printf_lli.o(.ARM.Collect$$_printf_percent$$0000000D) refers (Weak) to _printf_longlong_dec.o(.text) for _printf_longlong_dec
+    _printf_lld.o(.ARM.Collect$$_printf_percent$$0000000E) refers (Special) to _printf_ll.o(.ARM.Collect$$_printf_percent$$00000007) for _printf_ll
+    _printf_lld.o(.ARM.Collect$$_printf_percent$$0000000E) refers (Weak) to _printf_longlong_dec.o(.text) for _printf_longlong_dec
+    _printf_llu.o(.ARM.Collect$$_printf_percent$$0000000F) refers (Special) to _printf_ll.o(.ARM.Collect$$_printf_percent$$00000007) for _printf_ll
+    _printf_llu.o(.ARM.Collect$$_printf_percent$$0000000F) refers (Weak) to _printf_longlong_dec.o(.text) for _printf_longlong_dec
+    _printf_lc.o(.ARM.Collect$$_printf_percent$$00000015) refers (Special) to _printf_l.o(.ARM.Collect$$_printf_percent$$00000012) for _printf_l
+    _printf_lc.o(.ARM.Collect$$_printf_percent$$00000015) refers (Weak) to _printf_wchar.o(.text) for _printf_wchar
+    _printf_ls.o(.ARM.Collect$$_printf_percent$$00000016) refers (Special) to _printf_l.o(.ARM.Collect$$_printf_percent$$00000012) for _printf_l
+    _printf_ls.o(.ARM.Collect$$_printf_percent$$00000016) refers (Weak) to _printf_wchar.o(.text) for _printf_wstring
+    _printf_llo.o(.ARM.Collect$$_printf_percent$$00000010) refers (Special) to _printf_ll.o(.ARM.Collect$$_printf_percent$$00000007) for _printf_ll
+    _printf_llo.o(.ARM.Collect$$_printf_percent$$00000010) refers (Weak) to _printf_oct_int_ll.o(.text) for _printf_ll_oct
+    _printf_llx.o(.ARM.Collect$$_printf_percent$$00000011) refers (Special) to _printf_ll.o(.ARM.Collect$$_printf_percent$$00000007) for _printf_ll
+    _printf_llx.o(.ARM.Collect$$_printf_percent$$00000011) refers (Weak) to _printf_hex_int_ll_ptr.o(.text) for _printf_ll_hex
+    dnaninf.o(x$fpl$dnaninf) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    dretinf.o(x$fpl$dretinf) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    printf1.o(x$fpl$printf1) refers to _printf_fp_dec.o(.text) for _printf_fp_dec_real
+    printf2.o(x$fpl$printf2) refers to _printf_fp_hex.o(.text) for _printf_fp_hex_real
+    printf2b.o(x$fpl$printf2) refers to _printf_fp_hex.o(.text) for _printf_fp_hex_real
+    __rtentry2.o(.ARM.Collect$$rtentry$$00000008) refers to boardinit2.o(.text) for _platform_post_stackheap_init
+    __rtentry2.o(.ARM.Collect$$rtentry$$0000000A) refers to libinit.o(.ARM.Collect$$libinit$$00000000) for __rt_lib_init
+    __rtentry2.o(.ARM.Collect$$rtentry$$0000000B) refers to boardinit3.o(.text) for _platform_post_lib_init
+    __rtentry2.o(.ARM.Collect$$rtentry$$0000000D) refers to 2dx_studio_8.o(.text.main) for main
+    __rtentry2.o(.ARM.Collect$$rtentry$$0000000D) refers to milestone2.o(.text.main) for main
+    __rtentry2.o(.ARM.Collect$$rtentry$$0000000D) refers to exit.o(.text) for exit
+    __rtentry2.o(.ARM.exidx) refers to __rtentry2.o(.ARM.Collect$$rtentry$$00000001) for .ARM.Collect$$rtentry$$00000001
+    __rtentry2.o(.ARM.exidx) refers to __rtentry2.o(.ARM.Collect$$rtentry$$00000008) for .ARM.Collect$$rtentry$$00000008
+    __rtentry2.o(.ARM.exidx) refers to __rtentry2.o(.ARM.Collect$$rtentry$$0000000A) for .ARM.Collect$$rtentry$$0000000A
+    __rtentry2.o(.ARM.exidx) refers to __rtentry2.o(.ARM.Collect$$rtentry$$0000000B) for .ARM.Collect$$rtentry$$0000000B
+    __rtentry2.o(.ARM.exidx) refers to __rtentry2.o(.ARM.Collect$$rtentry$$0000000D) for .ARM.Collect$$rtentry$$0000000D
+    __rtentry4.o(.ARM.Collect$$rtentry$$00000004) refers to sys_stackheap_outer.o(.text) for __user_setup_stackheap
+    __rtentry4.o(.ARM.exidx) refers to __rtentry4.o(.ARM.Collect$$rtentry$$00000004) for .ARM.Collect$$rtentry$$00000004
+    _printf_intcommon.o(.text) refers (Weak) to _printf_pad.o(.text) for _printf_pre_padding
+    _printf_intcommon.o(.text) refers (Weak) to _printf_pad.o(.text) for _printf_pre_padding
+    _printf_intcommon.o(.text) refers (Weak) to _printf_pad.o(.text) for _printf_post_padding
+    _printf_fp_dec.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    _printf_fp_dec.o(.text) refers (Special) to lc_numeric_c.o(locale$$code) for _get_lc_numeric
+    _printf_fp_dec.o(.text) refers to bigflt0.o(.text) for _btod_etento
+    _printf_fp_dec.o(.text) refers to btod.o(CL$$btod_d2e) for _btod_d2e
+    _printf_fp_dec.o(.text) refers to btod.o(CL$$btod_ediv) for _btod_ediv
+    _printf_fp_dec.o(.text) refers to btod.o(CL$$btod_emul) for _btod_emul
+    _printf_fp_dec.o(.text) refers to lludiv10.o(.text) for _ll_udiv10
+    _printf_fp_dec.o(.text) refers to fpclassify.o(i.__ARM_fpclassify) for __ARM_fpclassify
+    _printf_fp_dec.o(.text) refers to _printf_fp_infnan.o(.text) for _printf_fp_infnan
+    _printf_fp_dec.o(.text) refers (Weak) to _printf_pad.o(.text) for _printf_pre_padding
+    _printf_fp_dec.o(.text) refers (Weak) to _printf_pad.o(.text) for _printf_pre_padding
+    _printf_fp_dec.o(.text) refers to rt_locale_intlibspace.o(.text) for __rt_locale
+    _printf_fp_dec.o(.text) refers (Weak) to _printf_pad.o(.text) for _printf_post_padding
+    _printf_fp_dec_accurate.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    _printf_fp_dec_accurate.o(.text) refers (Special) to lc_numeric_c.o(locale$$code) for _get_lc_numeric
+    _printf_fp_dec_accurate.o(.text) refers to btod_accurate.o(.text) for _btod_main
+    _printf_fp_dec_accurate.o(.text) refers to fpclassify.o(i.__ARM_fpclassify) for __ARM_fpclassify
+    _printf_fp_dec_accurate.o(.text) refers to _printf_fp_infnan.o(.text) for _printf_fp_infnan
+    _printf_fp_dec_accurate.o(.text) refers (Weak) to _printf_pad.o(.text) for _printf_pre_padding
+    _printf_fp_dec_accurate.o(.text) refers (Weak) to _printf_pad.o(.text) for _printf_pre_padding
+    _printf_fp_dec_accurate.o(.text) refers to rt_locale_intlibspace.o(.text) for __rt_locale
+    _printf_fp_dec_accurate.o(.text) refers (Weak) to _printf_pad.o(.text) for _printf_post_padding
+    _printf_fp_hex.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    _printf_fp_hex.o(.text) refers to fpclassify.o(i.__ARM_fpclassify) for __ARM_fpclassify
+    _printf_fp_hex.o(.text) refers to _printf_fp_infnan.o(.text) for _printf_fp_infnan
+    _printf_fp_hex.o(.text) refers (Weak) to _printf_pad.o(.text) for _printf_pre_padding
+    _printf_fp_hex.o(.text) refers (Weak) to _printf_pad.o(.text) for _printf_pre_padding
+    _printf_fp_hex.o(.text) refers (Weak) to _printf_pad.o(.text) for _printf_post_padding
+    _printf_fp_hex.o(.text) refers to _printf_fp_hex.o(.constdata) for .constdata
+    _printf_fp_hex.o(.constdata) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    _printf_char.o(.text) refers (Weak) to _printf_str.o(.text) for _printf_str
+    _printf_wchar.o(.text) refers (Weak) to _printf_wctomb.o(.text) for _printf_wctomb
+    _c16rtomb.o(.text) refers to rt_ctype_table.o(.text) for __rt_ctype_table
+    sys_stackheap_outer.o(.text) refers to libspace.o(.text) for __user_perproc_libspace
+    sys_stackheap_outer.o(.text) refers to startup_msp432e401y_uvision.o(.text) for __user_initial_stackheap
+    rt_ctype_table.o(.text) refers to rt_locale_intlibspace.o(.text) for __rt_locale
+    rt_ctype_table.o(.text) refers to lc_ctype_c.o(locale$$code) for _get_lc_ctype
+    rt_locale.o(.text) refers to rt_locale.o(.bss) for __rt_locale_data
+    rt_locale_intlibspace.o(.text) refers to libspace.o(.bss) for __libspace_start
+    _printf_fp_infnan.o(.text) refers (Weak) to _printf_pad.o(.text) for _printf_pre_padding
+    _printf_fp_infnan.o(.text) refers (Weak) to _printf_pad.o(.text) for _printf_post_padding
+    bigflt0.o(.text) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    bigflt0.o(.text) refers to btod.o(CL$$btod_emul) for _btod_emul
+    bigflt0.o(.text) refers to btod.o(CL$$btod_ediv) for _btod_ediv
+    bigflt0.o(.text) refers to bigflt0.o(.constdata) for .constdata
+    bigflt0.o(.constdata) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    btod.o(CL$$btod_d2e) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    btod.o(CL$$btod_d2e) refers to btod.o(CL$$btod_d2e_norm_op1) for _d2e_norm_op1
+    btod.o(CL$$btod_d2e_norm_op1) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    btod.o(CL$$btod_d2e_norm_op1) refers to btod.o(CL$$btod_d2e_denorm_low) for _d2e_denorm_low
+    btod.o(CL$$btod_d2e_denorm_low) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    btod.o(CL$$btod_emul) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    btod.o(CL$$btod_emul) refers to btod.o(CL$$btod_mult_common) for __btod_mult_common
+    btod.o(CL$$btod_emul) refers to btod.o(CL$$btod_e2e) for _e2e
+    btod.o(CL$$btod_ediv) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    btod.o(CL$$btod_ediv) refers to btod.o(CL$$btod_div_common) for __btod_div_common
+    btod.o(CL$$btod_ediv) refers to btod.o(CL$$btod_e2e) for _e2e
+    btod.o(CL$$btod_emuld) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    btod.o(CL$$btod_emuld) refers to btod.o(CL$$btod_mult_common) for __btod_mult_common
+    btod.o(CL$$btod_emuld) refers to btod.o(CL$$btod_e2d) for _e2d
+    btod.o(CL$$btod_edivd) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    btod.o(CL$$btod_edivd) refers to btod.o(CL$$btod_div_common) for __btod_div_common
+    btod.o(CL$$btod_edivd) refers to btod.o(CL$$btod_e2d) for _e2d
+    btod.o(CL$$btod_e2e) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    btod.o(CL$$btod_e2d) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    btod.o(CL$$btod_e2d) refers to btod.o(CL$$btod_e2e) for _e2e
+    btod.o(CL$$btod_mult_common) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    btod.o(CL$$btod_div_common) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    btod_accurate.o(.text) refers to btod_accurate_common.o(.text) for _btod_common
+    lc_numeric_c.o(locale$$data) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000018) for __rt_lib_init_lc_numeric_2
+    lc_numeric_c.o(locale$$code) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000018) for __rt_lib_init_lc_numeric_2
+    lc_numeric_c.o(locale$$code) refers to strcmpv7em.o(.text) for strcmp
+    lc_numeric_c.o(locale$$code) refers to lc_numeric_c.o(locale$$data) for __lcnum_c_name
+    exit.o(.text) refers to rtexit.o(.ARM.Collect$$rtexit$$00000000) for __rt_exit
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000030) for __rt_lib_init_alloca_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000002E) for __rt_lib_init_argv_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000001D) for __rt_lib_init_atexit_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000023) for __rt_lib_init_clock_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000034) for __rt_lib_init_cpp_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000032) for __rt_lib_init_exceptions_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000001) for __rt_lib_init_fp_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000021) for __rt_lib_init_fp_trap_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000025) for __rt_lib_init_getenv_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000000C) for __rt_lib_init_heap_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000013) for __rt_lib_init_lc_collate_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000015) for __rt_lib_init_lc_ctype_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000017) for __rt_lib_init_lc_monetary_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000019) for __rt_lib_init_lc_numeric_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000001B) for __rt_lib_init_lc_time_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000006) for __rt_lib_init_preinit_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000010) for __rt_lib_init_rand_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000004) for __rt_lib_init_relocate_pie_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000035) for __rt_lib_init_return
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000001F) for __rt_lib_init_signal_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000027) for __rt_lib_init_stdio_1
+    libinit.o(.ARM.Collect$$libinit$$00000000) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$0000000E) for __rt_lib_init_user_alloc_1
+    istatus.o(x$fpl$ieeestatus) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    fpclassify.o(i.__ARM_fpclassify) refers (Special) to usenofp.o(x$fpl$usenofp) for __I$use$fp
+    libspace.o(.text) refers to libspace.o(.bss) for __libspace_start
+    rtexit.o(.ARM.Collect$$rtexit$$00000000) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000004) for __rt_exit_exit
+    rtexit.o(.ARM.Collect$$rtexit$$00000000) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000003) for __rt_exit_ls
+    rtexit.o(.ARM.Collect$$rtexit$$00000000) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000002) for __rt_exit_prels_1
+    rtexit.o(.ARM.exidx) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000004) for __rt_exit_exit
+    rtexit.o(.ARM.exidx) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000003) for __rt_exit_ls
+    rtexit.o(.ARM.exidx) refers (Special) to rtexit2.o(.ARM.Collect$$rtexit$$00000002) for __rt_exit_prels_1
+    rtexit.o(.ARM.exidx) refers to rtexit.o(.ARM.Collect$$rtexit$$00000000) for .ARM.Collect$$rtexit$$00000000
+    btod_accurate_common.o(.text) refers to llushr.o(.text) for __aeabi_llsr
+    lc_ctype_c.o(locale$$data) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000014) for __rt_lib_init_lc_ctype_2
+    lc_ctype_c.o(locale$$code) refers (Special) to libinit2.o(.ARM.Collect$$libinit$$00000014) for __rt_lib_init_lc_ctype_2
+    lc_ctype_c.o(locale$$code) refers to strcmpv7em.o(.text) for strcmp
+    lc_ctype_c.o(locale$$code) refers to lc_ctype_c.o(locale$$data) for __lcctype_c_name
+    libinit2.o(.ARM.Collect$$libinit$$00000001) refers to fpinit.o(x$fpl$fpinit) for _fp_init
+    libinit2.o(.ARM.Collect$$libinit$$00000011) refers (Weak) to rt_locale_intlibspace.o(.text) for __rt_locale
+    libinit2.o(.ARM.Collect$$libinit$$00000012) refers to libinit2.o(.ARM.Collect$$libinit$$00000011) for .ARM.Collect$$libinit$$00000011
+    libinit2.o(.ARM.Collect$$libinit$$00000014) refers to libinit2.o(.ARM.Collect$$libinit$$00000011) for .ARM.Collect$$libinit$$00000011
+    libinit2.o(.ARM.Collect$$libinit$$00000014) refers (Weak) to lc_ctype_c.o(locale$$code) for _get_lc_ctype
+    libinit2.o(.ARM.Collect$$libinit$$00000016) refers to libinit2.o(.ARM.Collect$$libinit$$00000011) for .ARM.Collect$$libinit$$00000011
+    libinit2.o(.ARM.Collect$$libinit$$00000018) refers to libinit2.o(.ARM.Collect$$libinit$$00000011) for .ARM.Collect$$libinit$$00000011
+    libinit2.o(.ARM.Collect$$libinit$$00000018) refers (Weak) to lc_numeric_c.o(locale$$code) for _get_lc_numeric
+    libinit2.o(.ARM.Collect$$libinit$$0000001A) refers to libinit2.o(.ARM.Collect$$libinit$$00000011) for .ARM.Collect$$libinit$$00000011
+    libinit2.o(.ARM.Collect$$libinit$$00000028) refers to argv_veneer.o(.emb_text) for __ARM_argv_veneer
+    libinit2.o(.ARM.Collect$$libinit$$00000029) refers to argv_veneer.o(.emb_text) for __ARM_argv_veneer
+    rtexit2.o(.ARM.Collect$$rtexit$$00000003) refers to libshutdown.o(.ARM.Collect$$libshutdown$$00000000) for __rt_lib_shutdown
+    rtexit2.o(.ARM.Collect$$rtexit$$00000004) refers to sys_exit.o(.text) for _sys_exit
+    rtexit2.o(.ARM.exidx) refers to rtexit2.o(.ARM.Collect$$rtexit$$00000001) for .ARM.Collect$$rtexit$$00000001
+    rtexit2.o(.ARM.exidx) refers to rtexit2.o(.ARM.Collect$$rtexit$$00000003) for .ARM.Collect$$rtexit$$00000003
+    rtexit2.o(.ARM.exidx) refers to rtexit2.o(.ARM.Collect$$rtexit$$00000004) for .ARM.Collect$$rtexit$$00000004
+    argv_veneer.o(.emb_text) refers to no_argv.o(.text) for __ARM_get_argv
+    sys_exit.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
+    sys_exit.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
+    sys_exit_hlt.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
+    sys_exit_hlt.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
+    _get_argv_nomalloc.o(.text) refers (Special) to hrguard.o(.text) for __heap_region$guard
+    _get_argv_nomalloc.o(.text) refers to defsig_rtmem_outer.o(.text) for __rt_SIGRTMEM
+    _get_argv_nomalloc.o(.text) refers to sys_command.o(.text) for _sys_command_string
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000002) for __rt_lib_shutdown_cpp_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000007) for __rt_lib_shutdown_fp_trap_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$0000000F) for __rt_lib_shutdown_heap_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000010) for __rt_lib_shutdown_return
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$0000000A) for __rt_lib_shutdown_signal_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$00000004) for __rt_lib_shutdown_stdio_1
+    libshutdown.o(.ARM.Collect$$libshutdown$$00000000) refers (Special) to libshutdown2.o(.ARM.Collect$$libshutdown$$0000000C) for __rt_lib_shutdown_user_alloc_1
+    sys_command.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
+    sys_command.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
+    sys_command_hlt.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
+    sys_command_hlt.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
+    defsig_rtmem_outer.o(.text) refers to defsig_rtmem_inner.o(.text) for __rt_SIGRTMEM_inner
+    defsig_rtmem_outer.o(.text) refers to defsig_exit.o(.text) for __sig_exit
+    defsig_rtmem_formal.o(.text) refers to rt_raise.o(.text) for __rt_raise
+    rt_raise.o(.text) refers to __raise.o(.text) for __raise
+    rt_raise.o(.text) refers to sys_exit.o(.text) for _sys_exit
+    defsig_exit.o(.text) refers to sys_exit.o(.text) for _sys_exit
+    defsig_rtmem_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    __raise.o(.text) refers to defsig.o(CL$$defsig) for __default_signal_handler
+    defsig_general.o(.text) refers to sys_wrch.o(.text) for _ttywrch
+    sys_wrch.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
+    sys_wrch.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
+    sys_wrch_hlt.o(.text) refers (Special) to use_no_semi.o(.text) for __I$use$semihosting
+    sys_wrch_hlt.o(.text) refers (Special) to indicate_semi.o(.text) for __semihosting_library_function
+    defsig.o(CL$$defsig) refers to defsig_rtmem_inner.o(.text) for __rt_SIGRTMEM_inner
+    defsig_abrt_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_fpe_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_rtred_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_stak_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_pvfn_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_cppl_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_segv_inner.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+    defsig_other.o(.text) refers to defsig_general.o(.text) for __default_signal_display
+
